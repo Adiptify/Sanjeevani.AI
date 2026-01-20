@@ -1,0 +1,26 @@
+Sanjeevani AI - Technical Requirements
+
+Project Overview:
+A modern healthcare platform built with Next.js and MongoDB.
+
+Core Technologies:
+- Framework: Next.js 14.2+
+- Styling: Tailwind CSS
+- Database: MongoDB (via Mongoose)
+- Language: TypeScript / JavaScript
+- Icons/Animations: Lottie React
+
+Environment Variables Required:
+- MONGODB_URI: Connection string for the MongoDB database.
+
+Deployment Requirements:
+- Platform: Vercel (Preferred)
+- Node.js Version: 18.x or 20.x
+- Build Command: npm run build
+- Output Directory: .next
+
+Installation:
+1. Clone the repository.
+2. Run `npm install`.
+3. Set up `.env.local` with `MONGODB_URI`.
+4. Run `npm run dev` for local development.
