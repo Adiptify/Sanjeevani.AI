@@ -176,7 +176,7 @@ export default function DoctorSignupPage() {
       localStorage.setItem('userEmail', formData.email)
       localStorage.setItem('selectedRole', 'Doctor')
       
-      alert(`✅ Doctor Registration Submitted Successfully!\n\nRegistration ID: ${submissionData.registrationId}\nName: Dr. ${formData.firstName} ${formData.lastName}\nEmail: ${formData.email}\nStatus: Pending Verification\n\nOur team will review your credentials within 2-3 business days.\n\nRedirecting to your dashboard...`)
+      alert(`✅ Doctor Registration Submitted Successfully!\n\nRegistration ID: ${submissionData.registrationId}\nName: Dr. ${formData.fullName}\nEmail: ${formData.email}\nStatus: Pending Verification\n\nOur team will review your credentials within 2-3 business days.\n\nRedirecting to your dashboard...`)
       
       setTimeout(() => {
         router.push('/dashboard/doctor')
